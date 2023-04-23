@@ -1,6 +1,7 @@
 // vite.config.js
 
-import { defineConfig } from "vite";
+import { defineConfig } from "vite/dist/node/index.mjs";
+
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
